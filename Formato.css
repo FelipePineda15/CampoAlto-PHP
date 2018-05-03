@@ -1,0 +1,167 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://www.campoalto.edu.co/campoalto/hermesoft/portalIG/home_1/recursos/recursos2010/23112010/campo.jpg);
+}
+
+.b{
+    #pestanas {
+        float:left;
+        width:100%;
+        line-height:normal;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    #pestanas ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+    #pestanas li {
+        float:left;
+        margin:0 0 0 3px;
+        padding:0;
+        background:url("p-der.gif") no-repeat right top;
+    }
+    #pestanas a {
+        display:block;
+        background:url("p-izq.gif") no-repeat left top;
+        padding:3px 10px 3px 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+    #pestanas .activa a{
+        background-image:url("p-izq-activo.gif");
+    }
+    #pestanas .activa{
+        background-image:url("p-der-activo.gif");
+    }
+}
+
+.login {
+    margin: -30px auto;
+    width: 300px;
+    padding: 0px 130px;
+    background: #c4c4c400;
+}
+
+h1.login-title {
+    margin: -28px -25px 25px;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ADADAD;
+    text-align:center;
+    background: #f7f7f7;
+
+}
+
+.login-input {
+    width: 301px;
+    height: 90px;
+    margin-bottom: 25px;
+    padding-left:10px;
+    font-size: 40px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #100cef;
+    border-radius: 26px;
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    width: 315px;
+    height: 100px;
+    padding: 0;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    background: #6cd2f0;
+    border: 0;
+    border-radius: 26px;
+    cursor: pointer; 
+    outline:0;
+}
+
+.login-lost
+{
+    text-align:center;
+    margin-bottom:0px;
+}
+
+.login-lost a
+{
+    color:#666;
+    text-decoration:none;
+    font-size:13px;
+}
+.alert-danger
+{
+    width: 100%;
+    height: 160px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #6cd2f0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer; 
+    outline:0;
+}
+
+.p {
+  background-color: cornflowerblue;
+  border: blue 2px solid;
+  margin: 20px;
+}
+
+.login-input1 {
+    width: 352px;
+    height: 49px;
+    margin-bottom: 25px;
+    padding-left:10px;
+    text-align: center;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button1 {
+    width: 122%;
+    height: 30px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #6cd2f0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer; 
+    outline:0;
+}
+.login1 {
+    margin: -7px auto;
+    width: 300px;
+    padding: 0px 130px;
+    background: #c4c4c400;
+}
+
+.tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align: right;
+width: 600px;
+color: #f7f7f7;
+text-align: center;
+}
+
+.fuente {
+    font-family: Verdana;
+    font-size: 12px;
+    color: black;
+}
